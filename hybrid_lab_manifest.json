@@ -1,0 +1,108 @@
+{
+  "github_username": "240103179-Bakytkerey",
+  "student_id": "240103179",
+  "student_name": "Bakytkerey Abulsagit",
+  "gpu_name": "Tesla T4",
+  "gpu_uuid": "GPU-b65bf531-3727-0e5c-eb91-e9d7d93167bd",
+  "cpu_signature": "x86_64|Intel(R) Xeon(R) CPU @ 2.00GHz|# The following is the parsable format, which can be fed to other\n# programs. Each different item in every column has an unique ID\n# starting usually from zero.\n# CPU,Core,Socket\n0,0,0\n1,0,0",
+  "cpu_line_bytes": 64,
+  "INSTANCE_SEED": 14161699650134453305,
+  "rank_cpu_affinity": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "ranks": 4,
+  "grid": [
+    512,
+    512
+  ],
+  "steps": 300,
+  "iterations_per_rank": 40000000,
+  "kappa_max": 0.09999942176118526,
+  "dx": 0.001949317738791423,
+  "dt": 7.599723238083387e-06,
+  "dt_max": 9.499654047604233e-06,
+  "gpu_serialized_ms": 2109.9642569999996,
+  "gpu_overlapped_ms": 1988.2316220000002,
+  "max_diff": 0.0,
+  "global_energy": {
+    "0": 0.5115394743187474,
+    "100": 0.5112709414390861,
+    "200": 0.5110055821445998,
+    "300": 0.5107429386092208
+  },
+  "serialized_energy": {
+    "0": 0.5115394743187474,
+    "100": 0.5112709414390861,
+    "200": 0.5110055821445998,
+    "300": 0.5107429386092208
+  },
+  "global_heat": {
+    "0": 0.9959100807045744,
+    "100": 0.9957965574688825,
+    "200": 0.9956830471736382,
+    "300": 0.9955695498173662
+  },
+  "serialized_heat": {
+    "0": 0.9959100807045744,
+    "100": 0.9957965574688825,
+    "200": 0.9956830471736382,
+    "300": 0.9955695498173662
+  },
+  "source_integral": -3.545783833222037e-08,
+  "max_heat_balance_error": 2.220446049250313e-16,
+  "ptx_counts": {
+    "bar.sync": 1,
+    "ld.shared.f64": 5,
+    "st.shared.f64": 5
+  },
+  "llvm_atomicrmw_count": 9,
+  "llvm_instructions": [
+    "%.153.prol = atomicrmw add ptr %sunkaddr1, i64 1 monotonic, align 8",
+    "%.153 = atomicrmw add ptr %sunkaddr3, i64 1 monotonic, align 8",
+    "%.153.1 = atomicrmw add ptr %sunkaddr3, i64 1 monotonic, align 8",
+    "%.153.2 = atomicrmw add ptr %sunkaddr3, i64 1 monotonic, align 8",
+    "%.153.3 = atomicrmw add ptr %sunkaddr3, i64 1 monotonic, align 8",
+    "%.153.4 = atomicrmw add ptr %sunkaddr3, i64 1 monotonic, align 8",
+    "%.153.5 = atomicrmw add ptr %sunkaddr3, i64 1 monotonic, align 8",
+    "%.153.6 = atomicrmw add ptr %sunkaddr3, i64 1 monotonic, align 8",
+    "%.153.7 = atomicrmw add ptr %sunkaddr3, i64 1 monotonic, align 8"
+  ],
+  "shm_stride_ms": {
+    "1": 1321.3250599999994,
+    "8": 1130.79076,
+    "16": 1101.2774249999993
+  },
+  "shm_samples_ms": {
+    "1": [
+      1191.4442550000003,
+      1321.3250599999994,
+      1381.895774
+    ],
+    "8": [
+      1152.515006999999,
+      1119.9934320000011,
+      1130.79076
+    ],
+    "16": [
+      1101.2774249999993,
+      1098.7701999999988,
+      1243.6702270000008
+    ]
+  },
+  "false_sharing_slowdown": 1.168496513006526
+}
